@@ -1,0 +1,17 @@
+/* Created by: Mr. Kukwac
+* Created on: Feb 2025
+* This CSS file defines the style for more style.html
+* ICS2O-Unit1-04-HTML-CSS
+*/
+
+h1 {
+    text-align: center;
+    background-color: red;
+    color: black;
+    padding: auto;
+}
+
+body {
+    background-color: green;
+    color: white;
+}

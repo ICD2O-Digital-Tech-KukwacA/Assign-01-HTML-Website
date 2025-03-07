@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<!-- Assign-01-HTML-Website -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="My first website">
+    <meta name="keyword" content="immaculata, ics20">
+    <meta name="author" content="Kukwac">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="android-chrome" sizes="192x192" href="./Favicon/android-chrome-192x192.png">
+    <link rel="android-chrome" type="image/png" sizes="512x512" href="./Favicon/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="" href="./Favicon/apple-touch-icon.png">
+    <link rel="manifest" href="./Favicon/site.webmanifest">
+
+    <!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">World of Dogs</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--all-screens">
+        <a class="mdl-navigation__link" href="./index.html">What to Know About Dogs</a>
+        <a class="mdl-navigation__link" href="./index-2.html">Most Popular Dog Breeds</a>
+        <a class="mdl-navigation__link" href="./index-3.html">Importance of Dogs</a>
+        <a class="mdl-navigation__link" href="https://en.wikipedia.org/wiki/Dog">Dogs</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">World of Dogs</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="./index.html">What to Know About Dogs</a>
+      <a class="mdl-navigation__link" href="./index-2.html">Most Popular Dog Breeds</a>
+      <a class="mdl-navigation__link" href="./index-3.html">Importance of Dogs</a>
+      <a class="mdl-navigation__link" href="https://en.wikipedia.org/wiki/Dog">Dogs</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="page-content"><!-- Your content goes here --></div>
+  </main>
+    </div>
+
+    <!-- Google's MDL -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.pink-deep_purple.min.css" />
+    <link rel="stylesheet" href="./css/style2.css">
+    
+    <title>World of Dogs</title>
+  </head>
+  
+  <body>
+    <!-- Web page information-->
+    <h1>5 Most Popular Dog Breeds.</h1>
+    <h6>
+    <!-- Simple list -->
+    <style>
+    .demo-list-item {
+      width: 300px;
+    }
+    </style>
+
+    <ul class="demo-list-item mdl-list">
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+          1. French bulldog
+          <img src="./images/frenchie.webp" alt="French Bulldog">
+        </span>
+      </li>
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+          2. Labrador retriever
+          <img src="./images/labrador-retriever-three.jpg" alt="Labrador Retriever">
+        </span>
+      </li>
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+          3. Golden retriever
+          <img src="./images/golden-retriever.jpg" alt="Golden Retriever">
+        </span>
+      </li>
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+          4. German shepherd
+          <img src="./images/german-shepherd.webp" alt="German Shepherd">
+        </span>
+      </li>
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+          5. Poodle
+          <img src="./images/poodle.jpg" alt="Poodle">
+        </span>
+      </li>
+    </ul>
+    </h6>
+  </body>
+</html>
